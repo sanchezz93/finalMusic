@@ -12,6 +12,7 @@
 		8A5E4FA01CA581F600A88330 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A5E4F9E1CA581F600A88330 /* Main.storyboard */; };
 		8A5E4FA21CA581F600A88330 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A5E4FA11CA581F600A88330 /* Assets.xcassets */; };
 		8A5E4FA51CA581F600A88330 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A5E4FA31CA581F600A88330 /* LaunchScreen.storyboard */; };
+		8AD118301CC54B5900A85DB1 /* MusicTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD1182F1CC54B5900A85DB1 /* MusicTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		8A5E4FA11CA581F600A88330 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A5E4FA41CA581F600A88330 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A5E4FA61CA581F600A88330 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AD1182F1CC54B5900A85DB1 /* MusicTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				8A5E4F9A1CA581F600A88330 /* AppDelegate.swift */,
 				8A5E4F9C1CA581F600A88330 /* ViewController.swift */,
 				8A5E4F9E1CA581F600A88330 /* Main.storyboard */,
+				8AD1182F1CC54B5900A85DB1 /* MusicTableViewController.swift */,
 				8A5E4FA11CA581F600A88330 /* Assets.xcassets */,
 				8A5E4FA31CA581F600A88330 /* LaunchScreen.storyboard */,
 				8A5E4FA61CA581F600A88330 /* Info.plist */,
@@ -138,6 +141,7 @@
 			files = (
 				8A5E4F9D1CA581F600A88330 /* ViewController.swift in Sources */,
 				8A5E4F9B1CA581F600A88330 /* AppDelegate.swift in Sources */,
+				8AD118301CC54B5900A85DB1 /* MusicTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +291,7 @@
 				8A5E4FAB1CA581F600A88330 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
