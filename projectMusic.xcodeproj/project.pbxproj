@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A28EB951CE1D2B500182962 /* SevenTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A28EB941CE1D2B500182962 /* SevenTableViewController.swift */; };
 		8A5E4F9B1CA581F600A88330 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5E4F9A1CA581F600A88330 /* AppDelegate.swift */; };
 		8A5E4F9D1CA581F600A88330 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5E4F9C1CA581F600A88330 /* ViewController.swift */; };
 		8A5E4FA01CA581F600A88330 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A5E4F9E1CA581F600A88330 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8A28EB941CE1D2B500182962 /* SevenTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SevenTableViewController.swift; sourceTree = "<group>"; };
 		8A5E4F971CA581F600A88330 /* projectMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = projectMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A5E4F9A1CA581F600A88330 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A5E4F9C1CA581F600A88330 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				8A5E4F9A1CA581F600A88330 /* AppDelegate.swift */,
 				8A5E4F9C1CA581F600A88330 /* ViewController.swift */,
 				8A5E4F9E1CA581F600A88330 /* Main.storyboard */,
+				8A28EB941CE1D2B500182962 /* SevenTableViewController.swift */,
 				8AD1182F1CC54B5900A85DB1 /* MusicTableViewController.swift */,
 				8A5E4FA11CA581F600A88330 /* Assets.xcassets */,
 				8A5E4FA31CA581F600A88330 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A5E4F9D1CA581F600A88330 /* ViewController.swift in Sources */,
+				8A28EB951CE1D2B500182962 /* SevenTableViewController.swift in Sources */,
 				8A5E4F9B1CA581F600A88330 /* AppDelegate.swift in Sources */,
 				8AD118301CC54B5900A85DB1 /* MusicTableViewController.swift in Sources */,
 			);

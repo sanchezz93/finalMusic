@@ -38,7 +38,6 @@ class MusicTableViewController: UITableViewController {
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath)
-        print(indexPath.row)
         let year = years[indexPath.row]
         cell.textLabel?.text = year
         cell.detailTextLabel!.text = yearsInfo[indexPath.row]
