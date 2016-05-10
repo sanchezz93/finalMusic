@@ -28,7 +28,11 @@ class SevenTableViewController: UITableViewController {
         songs += "8- Bad Girls - Bad Girls ( 1979 ) \n"
         songs += "9- Killing me softly - Killing me softly ( 1973 ) \n"
         songs += "10- Another brick in the wall - the wall ( 1979 )"
-       sevenLabel.text = songs
+        sevenLabel.text = songs
+        tableView.backgroundColor = UIColor.blackColor()
+        tableView.separatorStyle = UITableViewCellSeparatorStyle.None
+        
     }
+    
     
 }

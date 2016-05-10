@@ -128,10 +128,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <sections>
-                            <tableViewSection headerTitle="1970" id="5Ll-do-Jrr">
+                            <tableViewSection id="5Ll-do-Jrr">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="161" id="sBX-ov-w6V">
-                                        <rect key="frame" x="0.0" y="28" width="600" height="161"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="161" id="sBX-ov-w6V">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="161"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="sBX-ov-w6V" id="WK4-Lo-HQu">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="160"/>
@@ -154,7 +154,7 @@
                             <tableViewSection headerTitle="Top ten songs" id="ZHn-eg-FNF">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="360" id="K32-li-E1d">
-                                        <rect key="frame" x="0.0" y="217" width="600" height="360"/>
+                                        <rect key="frame" x="0.0" y="189" width="600" height="360"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="K32-li-E1d" id="XtH-Q1-kyD">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="359"/>
@@ -186,7 +186,6 @@
                         </connections>
                     </tableView>
                     <connections>
-                        <outlet property="sectionTwo" destination="ZHn-eg-FNF" id="MZs-ee-WF0"/>
                         <outlet property="sevenLabel" destination="Aa0-aZ-r6V" id="6q0-6E-s58"/>
                     </connections>
                 </tableViewController>
