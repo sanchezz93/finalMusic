@@ -9,10 +9,12 @@
 /* Begin PBXBuildFile section */
 		8A28EB951CE1D2B500182962 /* SevenTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A28EB941CE1D2B500182962 /* SevenTableViewController.swift */; };
 		8A5E4F9B1CA581F600A88330 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5E4F9A1CA581F600A88330 /* AppDelegate.swift */; };
-		8A5E4F9D1CA581F600A88330 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5E4F9C1CA581F600A88330 /* ViewController.swift */; };
 		8A5E4FA01CA581F600A88330 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A5E4F9E1CA581F600A88330 /* Main.storyboard */; };
 		8A5E4FA21CA581F600A88330 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A5E4FA11CA581F600A88330 /* Assets.xcassets */; };
 		8A5E4FA51CA581F600A88330 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A5E4FA31CA581F600A88330 /* LaunchScreen.storyboard */; };
+		8AC1E9961CEB77BA00DFC7DF /* EightTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC1E9951CEB77BA00DFC7DF /* EightTableViewController.swift */; };
+		8AC1E9981CEB79AE00DFC7DF /* NineTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC1E9971CEB79AE00DFC7DF /* NineTableViewController.swift */; };
+		8AC1E99A1CEB7C0F00DFC7DF /* twoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC1E9991CEB7C0F00DFC7DF /* twoTableViewController.swift */; };
 		8AD118301CC54B5900A85DB1 /* MusicTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD1182F1CC54B5900A85DB1 /* MusicTableViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -20,11 +22,13 @@
 		8A28EB941CE1D2B500182962 /* SevenTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SevenTableViewController.swift; sourceTree = "<group>"; };
 		8A5E4F971CA581F600A88330 /* projectMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = projectMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A5E4F9A1CA581F600A88330 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8A5E4F9C1CA581F600A88330 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8A5E4F9F1CA581F600A88330 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8A5E4FA11CA581F600A88330 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A5E4FA41CA581F600A88330 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A5E4FA61CA581F600A88330 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AC1E9951CEB77BA00DFC7DF /* EightTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EightTableViewController.swift; path = ../EightTableViewController.swift; sourceTree = "<group>"; };
+		8AC1E9971CEB79AE00DFC7DF /* NineTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NineTableViewController.swift; sourceTree = "<group>"; };
+		8AC1E9991CEB7C0F00DFC7DF /* twoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = twoTableViewController.swift; sourceTree = "<group>"; };
 		8AD1182F1CC54B5900A85DB1 /* MusicTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,9 +62,11 @@
 		8A5E4F991CA581F600A88330 /* projectMusic */ = {
 			isa = PBXGroup;
 			children = (
+				8AC1E9951CEB77BA00DFC7DF /* EightTableViewController.swift */,
 				8A5E4F9A1CA581F600A88330 /* AppDelegate.swift */,
-				8A5E4F9C1CA581F600A88330 /* ViewController.swift */,
 				8A5E4F9E1CA581F600A88330 /* Main.storyboard */,
+				8AC1E9991CEB7C0F00DFC7DF /* twoTableViewController.swift */,
+				8AC1E9971CEB79AE00DFC7DF /* NineTableViewController.swift */,
 				8A28EB941CE1D2B500182962 /* SevenTableViewController.swift */,
 				8AD1182F1CC54B5900A85DB1 /* MusicTableViewController.swift */,
 				8A5E4FA11CA581F600A88330 /* Assets.xcassets */,
@@ -142,8 +148,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A5E4F9D1CA581F600A88330 /* ViewController.swift in Sources */,
+				8AC1E99A1CEB7C0F00DFC7DF /* twoTableViewController.swift in Sources */,
 				8A28EB951CE1D2B500182962 /* SevenTableViewController.swift in Sources */,
+				8AC1E9961CEB77BA00DFC7DF /* EightTableViewController.swift in Sources */,
+				8AC1E9981CEB79AE00DFC7DF /* NineTableViewController.swift in Sources */,
 				8A5E4F9B1CA581F600A88330 /* AppDelegate.swift in Sources */,
 				8AD118301CC54B5900A85DB1 /* MusicTableViewController.swift in Sources */,
 			);
